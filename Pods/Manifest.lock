@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.3)
+  - EstimoteBluetoothScanning (0.2.0)
+  - EstimoteProximitySDK (1.1.0):
+    - EstimoteBluetoothScanning (~> 0.2.0)
+  - EstimoteSDK (4.27.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - EstimoteProximitySDK (~> 1.0)
+  - EstimoteSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - EstimoteBluetoothScanning
+    - EstimoteProximitySDK
+    - EstimoteSDK
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  EstimoteBluetoothScanning: d44e46ebebe4e0e2696c4577168cb8660b5d4ee9
+  EstimoteProximitySDK: e4d47fa0d18182f7e402784261d30d61d11836d2
+  EstimoteSDK: 61935c7fbcb9fe93b97b0360351aef66fb1c338d
+
+PODFILE CHECKSUM: 6ec77226538d1f8bb2bc34fb33e6996266924a2c
+
+COCOAPODS: 1.5.3

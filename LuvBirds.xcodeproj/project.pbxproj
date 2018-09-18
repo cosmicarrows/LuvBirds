@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451A84467F1334AE8ECCFB61 /* Pods_LuvBirds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429793252A81A80737FB83CE /* Pods_LuvBirds.framework */; };
 		E90DA0C2212F1C4400418F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DA0C1212F1C4400418F5A /* AppDelegate.swift */; };
 		E90DA0C4212F1C4400418F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DA0C3212F1C4400418F5A /* ViewController.swift */; };
 		E90DA0C7212F1C4400418F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90DA0C5212F1C4400418F5A /* Main.storyboard */; };
 		E90DA0C9212F1C4900418F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90DA0C8212F1C4900418F5A /* Assets.xcassets */; };
 		E90DA0CC212F1C4900418F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90DA0CA212F1C4900418F5A /* LaunchScreen.storyboard */; };
+		E94762E62134F9BC00926F92 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94762E52134F9BC00926F92 /* Const.swift */; };
+		E94762E82134FE3500926F92 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94762E72134FE3500926F92 /* CustomButton.swift */; };
+		E947630B2137A24C00926F92 /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947630A2137A24C00926F92 /* CentralViewController.swift */; };
+		E947630D2137A3F400926F92 /* TransferServiceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947630C2137A3F400926F92 /* TransferServiceScanner.swift */; };
+		E9EEADD12140CB2D00CCE95B /* heartbeatspeedup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9EEADD02140CB2C00CCE95B /* heartbeatspeedup.mp3 */; };
+		E9EEADD921447A5000CCE95B /* ProximityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEADD821447A5000CCE95B /* ProximityViewController.swift */; };
+		E9EEADDB21447A9E00CCE95B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEADDA21447A9E00CCE95B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07576200628C8A81FA8CD658 /* Pods-LuvBirds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvBirds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuvBirds/Pods-LuvBirds.debug.xcconfig"; sourceTree = "<group>"; };
+		09559DE43CEFDE8E1D99AC67 /* Pods-LuvBirds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvBirds.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuvBirds/Pods-LuvBirds.release.xcconfig"; sourceTree = "<group>"; };
+		429793252A81A80737FB83CE /* Pods_LuvBirds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvBirds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90DA0BE212F1C4300418F5A /* LuvBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuvBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90DA0C1212F1C4400418F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E90DA0C3212F1C4400418F5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,14 @@
 		E90DA0C8212F1C4900418F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90DA0CB212F1C4900418F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90DA0CD212F1C4900418F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94762E52134F9BC00926F92 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		E94762E72134FE3500926F92 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E947630A2137A24C00926F92 /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
+		E947630C2137A3F400926F92 /* TransferServiceScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferServiceScanner.swift; sourceTree = "<group>"; };
+		E9EEADD02140CB2C00CCE95B /* heartbeatspeedup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heartbeatspeedup.mp3; sourceTree = "<group>"; };
+		E9EEADD22143634200CCE95B /* LuvBirds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuvBirds-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9EEADD821447A5000CCE95B /* ProximityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityViewController.swift; sourceTree = "<group>"; };
+		E9EEADDA21447A9E00CCE95B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451A84467F1334AE8ECCFB61 /* Pods_LuvBirds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D844E6F56B98D439E794C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429793252A81A80737FB83CE /* Pods_LuvBirds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E009F24F5052CE171B18D771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07576200628C8A81FA8CD658 /* Pods-LuvBirds.debug.xcconfig */,
+				09559DE43CEFDE8E1D99AC67 /* Pods-LuvBirds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E90DA0B5212F1C4300418F5A = {
 			isa = PBXGroup;
 			children = (
 				E90DA0C0212F1C4400418F5A /* LuvBirds */,
 				E90DA0BF212F1C4300418F5A /* Products */,
+				E009F24F5052CE171B18D771 /* Pods */,
+				9D844E6F56B98D439E794C90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,54 @@
 		E90DA0C0212F1C4400418F5A /* LuvBirds */ = {
 			isa = PBXGroup;
 			children = (
-				E90DA0C1212F1C4400418F5A /* AppDelegate.swift */,
+				E90DA0CD212F1C4900418F5A /* Info.plist */,
+				E94763112138CC6F00926F92 /* Miscellaneous */,
+				E947630F2138CC0F00926F92 /* HomeController */,
+				E947630E2138CBFB00926F92 /* CentralController */,
+				E94763102138CC3100926F92 /* TransferServiceObjectAndDelegate */,
+			);
+			path = LuvBirds;
+			sourceTree = "<group>";
+		};
+		E947630E2138CBFB00926F92 /* CentralController */ = {
+			isa = PBXGroup;
+			children = (
+				E947630A2137A24C00926F92 /* CentralViewController.swift */,
+			);
+			path = CentralController;
+			sourceTree = "<group>";
+		};
+		E947630F2138CC0F00926F92 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
 				E90DA0C3212F1C4400418F5A /* ViewController.swift */,
+				E9EEADD821447A5000CCE95B /* ProximityViewController.swift */,
+				E9EEADDA21447A9E00CCE95B /* Utils.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		E94763102138CC3100926F92 /* TransferServiceObjectAndDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E947630C2137A3F400926F92 /* TransferServiceScanner.swift */,
+			);
+			path = TransferServiceObjectAndDelegate;
+			sourceTree = "<group>";
+		};
+		E94763112138CC6F00926F92 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				E90DA0C1212F1C4400418F5A /* AppDelegate.swift */,
+				E94762E52134F9BC00926F92 /* Const.swift */,
+				E94762E72134FE3500926F92 /* CustomButton.swift */,
 				E90DA0C5212F1C4400418F5A /* Main.storyboard */,
 				E90DA0C8212F1C4900418F5A /* Assets.xcassets */,
 				E90DA0CA212F1C4900418F5A /* LaunchScreen.storyboard */,
-				E90DA0CD212F1C4900418F5A /* Info.plist */,
+				E9EEADD02140CB2C00CCE95B /* heartbeatspeedup.mp3 */,
+				E9EEADD22143634200CCE95B /* LuvBirds-Bridging-Header.h */,
 			);
-			path = LuvBirds;
+			path = Miscellaneous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90DA0D0212F1C4900418F5A /* Build configuration list for PBXNativeTarget "LuvBirds" */;
 			buildPhases = (
+				3FC416C7560DF38F018C6448 /* [CP] Check Pods Manifest.lock */,
 				E90DA0BA212F1C4300418F5A /* Sources */,
 				E90DA0BB212F1C4300418F5A /* Frameworks */,
 				E90DA0BC212F1C4300418F5A /* Resources */,
+				89413236D37ED7BF8AB49260 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +177,12 @@
 				TargetAttributes = {
 					E90DA0BD212F1C4300418F5A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EEADD12140CB2D00CCE95B /* heartbeatspeedup.mp3 in Resources */,
 				E90DA0CC212F1C4900418F5A /* LaunchScreen.storyboard in Resources */,
 				E90DA0C9212F1C4900418F5A /* Assets.xcassets in Resources */,
 				E90DA0C7212F1C4400418F5A /* Main.storyboard in Resources */,
@@ -130,13 +218,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FC416C7560DF38F018C6448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuvBirds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89413236D37ED7BF8AB49260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LuvBirds/Pods-LuvBirds-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
+				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuvBirds/Pods-LuvBirds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E90DA0BA212F1C4300418F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94762E82134FE3500926F92 /* CustomButton.swift in Sources */,
+				E9EEADD921447A5000CCE95B /* ProximityViewController.swift in Sources */,
+				E947630B2137A24C00926F92 /* CentralViewController.swift in Sources */,
 				E90DA0C4212F1C4400418F5A /* ViewController.swift in Sources */,
 				E90DA0C2212F1C4400418F5A /* AppDelegate.swift in Sources */,
+				E94762E62134F9BC00926F92 /* Const.swift in Sources */,
+				E947630D2137A3F400926F92 /* TransferServiceScanner.swift in Sources */,
+				E9EEADDB21447A9E00CCE95B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +415,10 @@
 		};
 		E90DA0D1212F1C4900418F5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07576200628C8A81FA8CD658 /* Pods-LuvBirds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7XKP3B2C9;
 				INFOPLIST_FILE = LuvBirds/Info.plist;
@@ -289,6 +428,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cosmicarrows.LuvBirds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuvBirds/Miscellaneous/LuvBirds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +437,10 @@
 		};
 		E90DA0D2212F1C4900418F5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09559DE43CEFDE8E1D99AC67 /* Pods-LuvBirds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7XKP3B2C9;
 				INFOPLIST_FILE = LuvBirds/Info.plist;
@@ -307,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cosmicarrows.LuvBirds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuvBirds/Miscellaneous/LuvBirds-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
